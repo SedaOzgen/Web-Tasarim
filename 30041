@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <title>SEDA Document</title>
+</head>
+<body>
+   <!--BODY SAYFANIN GÖRÜNEN YÜZÜDÜR.-->
+    <h1><b>Seda Özgen</b></h1>
+    <h3>Bugün hava sıcak</h3>
+    <br>
+    <br>
+    <h4><i>PİKSEL AKADEMİ</i></h4>
+    <P>Ahtapot; yumuşak gövdeli, sekiz kollu, Octopoda takımında 
+        sınıflandırılan yumuşakçaların genel adı. Kabul görmüş 300 civarında türü bulunan ahtapotlar kalamarlar, mürekkep balıkları ve nautiloidler
+        ile birlikte kafadan bacaklılar sınıfında gruplandırılırlar</P>
+
+           <img src="image/ahtapot.jpeg" width="300" height="200" align="right" border="9" alt="ahtapot"
+></img>
+<br>
+
+ <!--ul ve ol  sırasız ve sıralı  liste oluşturur.YAZILARA STYLE EKLEMELER YAPILABİLİR-->
+<ul>
+    <li>MAVİ</li>
+    <li>MOR</li>
+    <li>KIRMIZI</li>
+</ul>
+
+<ol>
+    <li>ÇAY</li>
+    <ul>
+        <li>BERGAMUT</li>
+        <li>YEŞİL ÇAY</li>
+        <li>BEYAZ ÇAY</li>
+        
+    
+    </ul>
+<BR>
+<BR>
+    <li>YUMURTA</li>
+    <ul>
+        <li>BILDIRCIN</li>
+        <li>KÖY YUMURTASI</li>
+        <li>YUMURTA</li>
+        
+    
+    </ul>
+    <BR>
+    <BR>
+
+    <li>SÜT</li>
+    <ul>
+        <li>BADEM SÜTÜ</li>
+        <li>LAKTOSSUZ</li>
+        
+    </ul>
+</ol>
+<!--blank farklı bir sayfada açar-->
+<a href="https://pikselakademi.com.tr/iletisim/" target="_parent">
+    PİKSEL AKADEMİ SAYFASINA GİDER
+</a>
+<br>
+<br>
+<a href="mailto:sedaozgen28@gmail.com" target="_blank">
+    MAİL AT
+</a>
+<br>
+<BR>
+
+<a href="tel:05344653434" target="_parent">
+    ARAMA YAP
+</a>
+<br>
+<br>
+
+<a>
+
+    <a href="https://www.instagram.com/" target="_blank">
+
+        <img src="image/insta.jpeg"width="100" height="50" >
+    
+    </a>
+
+</a>
+</body>
+
+</html>
+
