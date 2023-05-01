@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SEDANIN TARİFLERİ</title>
+</head>
+<body>
+   <!--BODY SAYFANIN GÖRÜNEN YÜZÜDÜR.-->
+   <img src="image/Tarifler ana sayfa.jpeg" width="99%" height="200" align="center " border="9" alt="Tarifler ana sayfa"
+   ></img>
+   
+   <br>
+   <br>
+   <h1><b>Seda'nın Tariflerine hoşgeldiniz :)</b></h1>
+    <h3>KÖRİ SOSLU MAKARNA</h3>
+    <h4><i>MALZEMELER</i></h4>
+    <!--ul ve ol  sırasız ve sıralı  liste oluşturur.YAZILARA STYLE EKLEMELER YAPILABİLİR-->
+<ul>
+    <li>1 Paket kalem makarna</li>
+    <li>1 Yemek kaşığı un</li>
+    <li>2 Yemek kaşığı tereyağ</li>
+    <li>2 Su bardağı soğuk süt kaşığı</li>
+    <li>1/2 Su bardağı makarna haşlama suyu</li>
+    <li>1 Tatlı kaşığı köri</li>
+    <li>1 Çay kaşığı karabiber</li>
+    <li>1 Çay kaşığı tuz</li>
+    <h4><i>YAPILIŞI</i></h4>
+   
+    <li><h5>PÜF NOKTASI</h5></li>
+    <ol>Sosa sıcak makarna suyundan eklemeniz en önemli püf noktasıdır.
+    </ol>
+    <li><h5>PİŞİRME ÖNERİSİ</h5></li>
+<ol>Makarnaları al dente seviyesinde pişirmenizi öneririz.
+</ol>
+<li><h5>YAPILIŞI</h5></li>
+</ul>
+</ul>
+<ol>
+    <h5><ol><li>Makarnayı paketin üstünde yazıldığı gibi bolca tuzlu suda haşlayın ve haşlama suyundan 
+        bir bardak kadar bir kenara ayırdıktan sonra süzün.</li>
+        <br>
+
+        <li>Sosu için bir tencereye tereyağını alın ve unu kokusu çıkana dek kavurun. 
+        Un kavrulduktan sonra sürekli karıştırarak içerisine sütü ekleyin, sütün topaklanmaması için 
+        sürekli karıştırmayı ve sütü yavaş yavaş eklemeyi unutmayın.</li>
+        <br>
+
+        <li>Sütün hepsini ekledikten sonra sosunuz kıvam 
+            almaya başladığında sıcak makarna suyunu da ekleyin 
+            ve kaynayınca baharatlarını da ekleyip karıştırın. Sosunuz hazır.</li>
+            <br>
+
+            <li>Hazırladığınız sosa haşladığınız makarnaları ekleyin 
+                ve güzelce karıştırdıktan sonra bir servis tabağına alın.
+                Üstüne ince doğranmış maydanozları ekleyin ve servis edin.</li>
+        
+
+        
+    
+    </ol></h5>
+
+
+    
+ 
+<!--blank farklı bir sayfada açar-->
+<a href="https://yemek.com/tarif/kori-soslu-makarna/" target="_parent">
+    TARİFİN KAYNAK SAYFASINA GİDER
+</a>
+<br>
+<br>
+<a href="mailto:sedaozgen28@gmail.com" target="_blank">
+    İletişim için tıklayıp mail atabilirsiniz.  :)
+</a>
+<br>
+<BR>
+
+
+<br>
+<br>
+
+
+</body>
+
+</html>
+
