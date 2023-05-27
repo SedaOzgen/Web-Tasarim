@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.ornek</title>
+</head>
+
+<body>
+    <h4>KAYIT</h4>
+    <form action="VERİYİ GÖNDER.php" method="get">
+
+        <fieldset>
+            <label name="userName">KULLANICI ADI:</label>
+            <input type="text" name="TEXT">
+
+            <button type="button" value="say hi" name="Buttons" onclick="alert('Kullanılır')">
+                Kullanılabilir mi?</button>
+
+
+            <br><br>
+
+            <label name="userName">ADI:</label>
+            <input type="text" name="TEXT"><br><br>
+            <label name="userName">SOYADI:</label>
+            <input type="text" name="TEXT"><br><br>
+
+            <label> E POSTA ADRESİ</label>
+            <!-- placeholder örneklerndirme saglar-->
+            <input type="email" name="mail" placeholder="Eposta giriniz">
+
+            <button type="button" value="say hi" name="Buttons" onclick="alert('Kullanılır 2')">
+                Kullanılabilir mi? </button>
+
+            <br><br>
+            <label>ŞİFRE:</label>
+
+            <input required type="password" name="PASWORD" placeholder=":Parola giriniz"><br><br>
+
+            <label>ŞİFRENİZİ TEKRARLAYINIZ:</label>
+            <input required type="password" name="PASWORD" placeholder=":Parola giriniz"><br><br>
+
+        </fieldset><br>
+        <fieldset>
+            <H4>ÖZEL BİLGİLER</H4>
+            <label> DOĞUM TARİHİ</label>
+
+            <input type="date"><BR><br>
+            <label>DİL:</label>
+            <select name="DİL">
+                <option>İNGİLİZCE</option>
+                <option>ALMANCA</option>
+                <option>TÜRKÇE</option>
+
+            </select><br><br>
+            <label>WEB SAYFASI(varsa)</label>
+            <input type="email" name="website"><br><br>
+            <label>KONUM</label>
+            <input type="email" name="website">
+            <br><br>
+            <label>MESLEK</label>
+            <input type="email" name="website">
+
+            <h4>İlgi lanlarımız</h4>
+            <fieldset><!-- bu etiket hobileri kutu içerisine alıp kategori yapar-->
+
+                <label>Yıldız dergi</label>
+                <input type="checkbox">
+
+                <label>Futbol</label>
+                <input type="checkbox">
+
+                <label>Gezi</label>
+                <input type="checkbox">
+                <label>Spor</label>
+                <input type="checkbox">
+
+            </fieldset><br><br>
+        </fieldset>
+
+    <h4>Özel bilgiler</h4>
+    <fieldset>
+
+<input type="radio">yıldız dergi maili aktive et<br>
+<input type="radio"><input type="email"> bu mail adresini kullan <br>
+<input type="checkbox"> yeni spor oyunları edinmek istiyorum
+<input type="checkbox"> internete giriş sayfam burası<br>
+<input type="checkbox"> yeni spor oyunları edinmek istiyorum
+    </fieldset>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÖRNEK 07.05.23</title>
+</head>
+
+<body>
+
+    <form action="VERİYİ GÖNDER.php" method="get">
+        <!-- label ise isimlendirmede kullanılır for gibi name gibi etribute vardır
+        arkadaki verilerde isimlendirme sağlar
+    İNPUT ise type name gibi özellileri var number yanına max ve min değerler verilir-->
+        <h4>Hesap Bilgileriniz</h4>
+        <fieldset>
+            <label name="userName">KULLANICI ADI:</label>
+            <input type="text" name="TEXT" placeholder="Kullanıcı Adı Giriniz" <br><br><br>
+            <label> Email</label>
+            <!-- placeholder örneklerndirme saglar-->
+            <input type="email" name="mail" placeholder="Eposta giriniz"><br><br>
+            <label>Parola:</label>
+            <!--Requred değeri olmazsa olmaz alandır değeri 
+            kesinlikle girmek gerektiğini belirtir-->
+            <input required type="password" name="PASWORD" placeholder=":Parola giriniz"><br><br>
+            <!-- numberlara min max eklenir sınır koyar-->
+        </fieldset><br>
+        <h4> Kişisel Bilgileriniz</h4>
+        <fieldset>
+            <label name="userName">ADI:</label>
+            <input type="text" name="TEXT"><BR><BR>
+
+            <label name="userName">SOYADI:</label>
+            <input type="text" name="TEXT"><BR><BR>
+
+            <!-- sayfa acılınca default olarak gelmesi için input içine checked yazmak gerekir-->
+            <label for="KADIN">KADIN</label>
+            <input type="radio" id="KADIN" name="CİNSİYET" checked value="KADIN">
+
+            <label for="ERKEK">ERKEK</label>
+            <input type="radio" id="ERKEK" name="CİNSİYET" value="ERKEK">
+            <input type="submit" value="KAYDET" name=",BUTON">
+            <br><br>
+            ŞEHİR:
+            
+            <select name="sehir">
+                <option>Eskişehir</option>
+                <option>Giresun</option>
+                <option>İstanbul</option>
+                <option>İzmir</option>
+
+            </select><br><br>
+            <button type="button" value="say hi" onclick="alert(Merhaba)">
+
+
+            </button>
+
+            <!--<label> Şehirler</label>
+            <datalist>
+            <input list="sehirler" id="il" name="Antalya">
+            <option value="Antalya"></option>
+            <option value="Antalya"></option>
+            </datalist>-->
+        </fieldset>
+        <br><br>
+        <h4>Hobileriniz:</h4>
+        <fieldset><!-- bu etiket hobileri kutu içerisine alıp kategori yapar-->
+
+            <label for="spor">Spor Yapmak</label>
+            <input type="checkbox" id="spor" name="hobilerim">
+
+            <!-- sayfa acılınca default olarak gelmesi için input içine checked yazmak gerekir-->
+            <label for="kitap okumak">Kitap Okumak</label>
+            <input type="checkbox" id="kitap okumak" name="hobilerim">
+
+            <label for="filmizlemek">Film İzlemek</label>
+            <input type="checkbox" id="filmizlemek" name="hobilerim"><br><br>
+        </fieldset><br><br>
+        <br>
+        <input type="reset" value="Temizle"><br><br>
+
+<label> Adres</label>
+<textarea rows="5" cols="50">
+
+
+</textarea>
+
+
+       
+
+
+
+
+    </form>
+
+</body>
+
+</html>

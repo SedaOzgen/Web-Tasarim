@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlarla Çalışmak</title>
+</head>
+
+<body>
+
+    <!--action değeri formla yapılan işlemleri bir fonksiyona bağlanır.
+    get methodu veri tabanınından çekilen bilgilerdir renk marka vs. post 
+    ise dataya verileri gönderir-->
+    <form action="VERİYİ GÖNDER.php" method="get">
+        <!-- label ise isimlendirmede kullanılır for gibi name gibi etribute vardır
+        arkadaki verilerde isimlendirme sağlar
+    İNPUT ise type name gibi özellileri var number yanına max ve min değerler verilir-->
+        <label name="userName">KULLANICI AD:</label>
+        <input type="text" name="TEXT"> <br><br>
+
+        <label>ŞİFRE:</label>
+        <!--Requred değeri olmazsa olmaz alandır değeri 
+            kesinlikle girmek gerektiğini belirtir-->
+        <input required type="password" name="PASWORD"><br><br>
+        <!-- numberlara min max eklenir sınır koyar-->
+        <label>NUMBER:</label>
+        <input type="number" min="1" max="25" name="SAYI"> <br><br>
+        <!-- sayfa acılınca default olarak gelmesi için input içine checked yazmak gerekir-->
+        <label for="KADIN">KADIN</label>
+        <input type="radio" id="KADIN" name="CİNSİYET" value="KADIN">
+
+        <label for="ERKEK">ERKEK</label>
+        <input type="radio" id="ERKEK" name="CİNSİYET" value="ERKEK">
+        <input type="submit" value="GÖNDER" name=",BUTON">
+        <br><br>
+
+        <h4>Hobileriniz:</h4>
+<fieldset><!-- bu etiket hobileri kutu içerisine alıp kategori yapar-->
+
+        <label for="spor">Spor Yapmak</label>
+        <input type="checkbox" id="spor" name="hobilerim">
+
+        <!-- sayfa acılınca default olarak gelmesi için input içine checked yazmak gerekir-->
+        <label for="kitap okumak">Kitap Okumak</label>
+        <input type="checkbox" id="kitap okumak" checked name="hobilerim">
+
+        <label for="filmizlemek">Film İzlemek</label>
+        <input type="checkbox" id="filmizlemek" name="hobilerim"><br><br>
+    </fieldset>
+    <br>
+        <label> Email</label>
+         <!-- placeholder örneklerndirme saglar-->
+        <input type="email"name="mail" placeholder="mail"  >
+        <small>Format:example@mail.com</small>
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
