@@ -1,0 +1,68 @@
+.mainDiv {
+    background-color: rgb(197, 161, 231);
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainDiv ul {
+    display: flex;
+
+
+}
+
+.mainDiv ul li {
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.mainDiv h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.aboutMe {
+    background-color: aqua;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.abautMeWrapper {
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.aboutMeWrapper h1 {
+    font-size: 20px;
+}
+
+.aboutMeWrapper h2 {
+    opacity: 0.4;
+}
+
+.hobies {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hobies div {
+    background-color: aqua;
+    padding: 3rem;
+
+}
+
+.hobies ol li {
+    margin: 20px;
+    list-style-type: none;
+
+}

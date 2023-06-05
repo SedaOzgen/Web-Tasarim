@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div-genel {
+            background-color: black;
+            height: 700px;
+            padding: 10px;
+            color: white;
+            border: 1px solid black;
+            border-radius: 10px;
+         
+        }
+        .div-box {
+            margin: 3px 3px 3px 3px;
+            text-align: center;
+            background-color: gray;
+            border: 1px solid black;
+            border-radius: 10px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+        }
+        .div-header {
+            flex-direction: column;
+            height: 10%;
+        }
+        .div-footer {
+            flex-direction: column;
+            height: 8%;
+        }
+        .div-body {
+            height: 80%;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+        }
+      
+        .div-section{
+            background-color: gray;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px;
+            width: 100%;
+            margin: 4px;
+        }
+        .div-nav {
+            width: 30%;
+            padding-top: 10px;
+            
+        }
+        .div-aside {
+            width: 30%;
+            padding-top: 10px;
+        }
+        .item-color {
+            background-color:rgba(240, 255, 255, 0.271) ;
+            flex-direction: column;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="div-genel">
+        <div class="div-header div-box">
+            header
+        </div>
+        <div class="div-body">
+            <div class="div-nav div-box">nav</div>
+            <div class="div-section">
+                <div>section</div>
+                <div class="div-header div-box item-color ">header</div>
+                <div class="div-body div-box item-color " style="height: 75%;">article</div>
+                <div class="div-header div-box item-color ">footer</div>
+            </div>
+            <div class="div-aside div-box">aside</div>
+        </div>
+        <div class="div-footer  div-box" >
+            footer
+        </div>
+    </div>
+</body>
+</html>

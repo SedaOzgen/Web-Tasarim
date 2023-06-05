@@ -1,0 +1,87 @@
+.mainDiv {
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainDiv ul {
+    display: flex;
+
+
+}
+
+.mainDiv ul li {
+    padding: 0.25rem;
+    margin: 1rem;
+
+}
+
+img {
+    width: 100px;
+    height: 50px;
+}
+
+.body {
+    background-color: rgb(165, 212, 228);
+    background-size: 100% 100%;
+}
+
+.anaalan h1 {
+    font-style: italic;
+    background-color: beige;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.anaalan p {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div1 {
+    display: flex;
+    background-color: cadetblue;
+
+}
+
+.hakkimizda {
+
+    background-color: beige;
+    width: 60%;
+    margin: 1rem;
+}
+
+.iletisim {
+    margin: 1rem;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+}
+
+.iletisim h4 {
+
+    font-size: 1, 5rem;
+    background-color:;
+
+}
+
+.hakkimizda {
+    padding: 50px;
+}
+.adres{
+    margin: 1rem;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+            border: 1px solid black;
+            background-color: blueviolet;
+            height: 100px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .div2 {
+            border: 1px solid black;
+            height: 100px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            
+        }
+        .div-ortak {
+            width: 100%;
+            justify-content:center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .div3 {
+          
+            background-color: aqua;
+            
+        }
+        .div4 {
+           
+            background-color: pink;
+           
+        }
+      
+        .div6 {
+            background-color: red;
+           
+        }
+        .div7 {
+            background-color: green;
+          
+        }
+
+        .div8 {
+            background-color: blanchedalmond;
+           
+        }
+    </style>
+</head>
+<body>
+    <div id="div1" class="div1">Content area 1</div>
+    <div class="div2">
+        <div class="div3 div-ortak">content area 2</div>
+        <div class="div4 div-ortak">content area 3</div>
+    </div>
+    <div class="div2">
+        <div class="div6 div-ortak">content area 4</div>
+        <div class="div7 div-ortak">content area 5</div>
+        <div class="div8 div-ortak">content area 6</div>
+    </div>
+</body>
+</html>
