@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+  }
+  
+  .ourServices {
+    width: 100%;
+    height: 100%;
+  }
+  .ourServices .servicesText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourServices .mainService {
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .ourServices .service {
+    width: 25%;
+    height: 300px;
+    padding: 2rem 1rem;
+    background-color: white;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: #efecec;
+    box-shadow: 0 2px 4px 0 rgb(255, 255, 255),
+      0 6px 20px 0 rgba(225, 219, 219, 0.215);
+  }
+  
+  .ourServices .service .serviceItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .ourServices .service .serviceItem i {
+    font-size: 35px;
+    margin: 1rem;
+    color: #627cb7;
+    color: rgba(94, 94, 210, 0.8);
+    font-size: 2rem;
+    position: absolute;
+  }
+  
+  .iconWrapper {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ourServices .service .serviceItem span {
+    font-size: 24px;
+  }
+  .ourServices .service .serviceItem p {
+    font-size: 18px;
+    color: #1a1033;
+    text-align: center;
+  }
+  .ourServices .servicesText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
