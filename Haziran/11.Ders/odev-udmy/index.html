@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+
+        /* styling search bar */
+        .search input[type=text] {
+            width: 400px;
+            height: 35px;
+            border-radius: 25px;
+            background-color: #f7f9fa;
+            border: 1px solid black;
+            font-size: 12px
+            ;
+        }
+
+        .search {
+            width: 90%;
+            float: center;
+            margin: 7px;
+        }
+
+        .search button {
+            background-color: #0074D9;
+            color: #f2f2f2;
+            float: right;
+            padding: 5px 10px;
+            margin-right: 16px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .shadow {
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        }
+
+        #navbarNav a {
+            font-family: 'Udemy Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+            color: black;
+            font-weight: 400;
+            line-height: 1.4;
+
+        }
+
+        #navbarNav a:hover {
+            color: #5624d0;
+            ;
+        }
+
+    
+
+        .btn {
+            margin: 5px;
+            border: 1px solid black;
+            border-color: black;
+
+        }
+
+        .btn a:hover {
+
+            color: #b1b4b6;
+            border-color: black;
+        }
+
+        .btn-register {
+            margin: 5px;
+            border: 1px solid #2E4C6D;
+            border-color: black;
+            background-color: black;
+            color: white;
+        }
+
+        .btn-register a:hover {
+
+            color: rgb(44, 42, 42);
+        }
+
+        .main-header {
+            margin: 0px;
+            padding: 60px;
+            background: url(images/clock.jpg);
+            width: 100vw;
+            height: 400px;
+            object-fit: contain;
+            object-position: initial;
+        }
+
+        .main-title {
+
+            padding: 20px;
+            width: 350px;
+
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        }
+
+        .main-title p {
+            font-size: 13px;
+        }
+
+        .discovery {
+            margin: 30px;
+        }
+
+        .dıscovery-title {}
+
+        .tab-nav {
+            display: inline-block;
+            text-align: left ;
+         
+
+        }
+
+        .tab-nav__items {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+        .tab-nav__item {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .tab-nav__item a {
+            text-decoration: none;
+            color: gray;
+        }
+
+        .tab-nav__item a:hover,
+        .tab-nav__item:hover::before {
+            color: black;
+        }
+        .tab-nav_active {
+            color: black;
+        }
+
+        .discovery-page-item {
+            margin-top: 10px;
+            padding: 20px;
+            border: 1px solid rgb(228, 226, 226)  ;
+        }
+        .discovery-page-item a {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            border: 1px solid black;
+        }
+        .discovery-page-item a:hover {
+           
+            background-color: rgb(241, 241, 241);
+          
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div class="conteiner-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+
+            <a class="navbar-brand " style="margin-left: 15px;" href="#">
+                <img src="images/logo-udemy.svg" alt="Udemy" width="91" height="34" loading="eager">
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Kategoriler <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="search">
+                            <form action="#">
+                                <input type="text" placeholder=" Dilediğiniz şeyi arayın" name="search">
+                                <!-- <button>
+                                    <i class="fa fa-search" style="font-size: 18px;">
+                                    </i>
+                                </button> -->
+                            </form>
+                        </div>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Udemy Business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Udemy'de Eğitim verin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn" href="#">Oturum Aç</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  btn-register" style="color: white;"   href="#">Kaydol</a>
+                    </li>
+                    <!-- <li class="nav-item ">
+                        <a class="nav-link btn " ><i class="fa-regular fa-globe"></i></a>
+                    </li> -->
+                </ul>
+            </div>
+
+        </nav>
+
+
+
+    </div>
+    <header class="main-header">
+
+        <div class="main-title">
+            <h3>Udemy'de yeni misiniz? Çok şanslısınız.</h3>
+            <p>Kurslar şimdi yalnızca ₺69,99'den başlayan fiyatlarla! Sona ermeden önce yeni öğrencilere özel fırsattan
+                yararlanın.</p>
+        </div>
+    </header>
+    <section class="discovery">
+        <div class="dıscovery-title">
+            <h3>Kapsamlı kurs seçkisi</h3>
+            <p>Her ay yayınlanan yeni kurslarla 210.000 + online video kurs arasından seçiminizi yapın</p>
+        </div>
+        <div class="discovery-page">
+          
+              
+            <nav class="tab-nav">
+                <ul class="tab-nav__items">
+                    <li class="tab-nav__item "><a href="#" style="color: black;">Python</a></li>
+                    <li class="tab-nav__item"><a href="#">Excel</a></li>
+                    <li class="tab-nav__item"><a href="#">Web Geliştirme</a></li>
+                    <li class="tab-nav__item"><a href="#">Javascript</a></li>
+                    <li class="tab-nav__item"><a href="#">Veri Bilimi</a></li>
+                    <li class="tab-nav__item"><a href="#">Amazon AWS</a></li>
+                    <li class="tab-nav__item"><a href="#">Çizim</a></li>
+                   
+                </ul>
+            </nav>
+
+            <div class="discovery-page-item">
+                <div>
+                    <h5>Python ile kariyer olanaklarınızı artırın</h5>
+                    <p>İster makine öğrenimi, ister finans alanında çalışıyor olun, ister web geliştirme veya veri bilimi alanında kariyer yapıyor olun, Python öğrenebileceğiniz en önemli becerilerden biridir. Python'un basit sözdizimi özellikle masaüstü, web ve iş uygulamaları için uygundur.</p>
+                </div>
+                <a class=" ">Python kurslarini keşfedin</a> </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html
