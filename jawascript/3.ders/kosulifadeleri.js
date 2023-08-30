@@ -189,7 +189,9 @@ console.log("sayıların toplamı:", girilenDeger1 + girilenDeger2)
 // sayiTopla();
 
 
-
+// sayaç örneği yap 
+//hesap makine örneğini tamamla
+// dizilere bak perşembe 
 
 
 

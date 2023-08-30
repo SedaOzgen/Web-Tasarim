@@ -103,7 +103,24 @@ const y = arr.filter(item=> item == 'Pamuk' );
 if (y && y.length > 0) {
     console.log(y);
 }
+console.log('------------');
+console.log(arr);
 
+//sort ifadesi
+//reverse ifadesi
+
+//to do list eklenen öğeleri silin 
+
+// Her meyve için bir <li> elementi oluşturup <ul> içine ekleyelim meyveler.forEach(function(meyve) {
+//  var liElement = document.createElement("li"); liElement.textContent = meyve; ulElement.appendChild(liElement);
+
+
+let index = arr.findIndex(item => item =='Pamuk' );
+console.log(index);
+
+if (index > -1) {
+    arr.splice(index,1);
+}
 console.log(arr);
 
 

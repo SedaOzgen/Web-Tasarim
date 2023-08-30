@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main">
+<ul id="" class="" ></ul>
+    </div>
+    <script>
+        const arr = ['seda', 'kivanc', 'oguzhan', 9];
+        //  var liElement = document.createElement("li"); liElement.textContent = meyve; ulElement.appendChild(liElement);
+        var ulElement = document.createElement('ul');
+        ulElement.id='content';
+        ulElement.className='text';
+
+        for (i in arr)  {
+            const value = arr[i]
+            var liElement = document.createElement('li');
+            liElement.innerHTML = value
+            ulElement.appendChild(liElement);
+        }
+
+        // for (let index = 0; index < arr.length; index++) {
+        //     const value = arr[index];
+        //     var liElement = document.createElement('li');
+        //     liElement.innerHTML = value
+        //     ulElement.appendChild(liElement);
+        // }
+        document.getElementById('main').appendChild(ulElement);
+        // let content ='<ul>';
+        // for (let index = 0; index < arr.length; index++) {
+        //     const element = arr[index];
+        //     content += '<li>' + element + '</li>';
+        // }
+        // content +='</ul>';
+        // document.getElementById('main').innerHTML = content;
+
+    </script>
+</body>
+
+</html>
