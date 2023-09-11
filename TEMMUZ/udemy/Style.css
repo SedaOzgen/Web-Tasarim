@@ -52,3 +52,9 @@ article div.title-list li {
     color:blueviolet;
     border: 2px solid blue;
 }
+.navbar {
+    background: #fff !important;
+}
+.checked {
+    color: orange;
+  }

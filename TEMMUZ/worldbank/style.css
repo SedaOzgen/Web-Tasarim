@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+/* styling search bar */
+.search input[type=text] {
+    width: 400px;
+    height: 35px;
+    border-radius: 25px;
+    background-color: #f7f9fa;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+.search {
+    width: 90%;
+    float: center;
+    margin: 7px;
+}
+
+.search button {
+    background-color: #0074D9;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#navbarNav a {
+    font-family: 'Udemy Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    color: black;
+    font-weight: 400;
+    line-height: 1.4;
+
+}
+
+#navbarNav a:hover {
+    color: #5624d0;
+    ;
+}
+
+
+
+.btn {
+    margin: 5px;
+    border: 1px solid black;
+    border-color: black;
+
+}
+
+.btn a:hover {
+
+    color: #b1b4b6;
+    border-color: black;
+}
+
+.btn-register {
+    margin: 5px;
+    border: 1px solid #2E4C6D;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+.btn-register a:hover {
+
+    color: rgb(44, 42, 42);
+}
+
+.main-header {
+    margin: 0px;
+    padding: 60px;
+    background: url(images/clock.jpg);
+    width: 100vw;
+    height: 400px;
+    object-fit: contain;
+    object-position: initial;
+}
+
+.main-title {
+
+    padding: 20px;
+    width: 350px;
+
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.main-title p {
+    font-size: 13px;
+}
+
+.discovery {
+    margin: 30px;
+}
+
+.dıscovery-title {}
+
+.tab-nav {
+    display: inline-block;
+    text-align: left;
+
+
+}
+
+.tab-nav__items {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.tab-nav__item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.tab-nav__item a {
+    text-decoration: none;
+    color: gray;
+}
+
+.tab-nav__item a:hover,
+.tab-nav__item:hover::before {
+    color: black;
+}
+
+.tab-nav_active {
+    color: black;
+}
+
+.discovery-page-item {
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid rgb(228, 226, 226);
+}
+
+.discovery-page-item a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+}
+
+.discovery-page-item a:hover {
+
+    background-color: rgb(241, 241, 241);
+
+}
+
+
+
+
+.underline-text {
+    text-decoration: underline;
+}
+.bg-image {
+    height: 500px;
+    background-image: url('images/sdg-atlas-image-1440x600.webp'); 
+    background-size: cover;
+    background-position:top ;
+    
+}
+.navbar {
+    text-align: right;
+    width: 100%;
+   
+}
+#navbarNav {
+    text-align: right;
+}
+.nav-item {
+    text-align: right;
+}

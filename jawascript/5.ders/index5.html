@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .form-container {
+        width: 400px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }</style>
+    
+    <!-- <h5 id="carBrand">
+        Object Ekrana Yazdırma
+    </h5> -->
+
+    <!-- <ul id="cicekler">
+
+    </ul> -->
+<div class="textarea">
+    <h2>Kişisel Bilgi Formu</h2>
+    <form action="#" method="post">
+        <label id="ad">Ad:</label>
+        <input type="text" id="ad" name="ad" ><br>
+
+        <label id="soyad">Soyad:</label>
+        <input type="text" id="soyad" name="soyad" ><br>
+
+        <label id="tc">TC Kimlik No:</label>
+        <input type="text" id="tc" name="tc" pattern="[0-9]{11}" ><br>
+
+        <label id="telefon">Telefon Numarası:</label>
+        <input type="tel" id="telefon" name="telefon" pattern="[0-9]{10}"><br>
+
+        <label id="adres">Adres:</label>
+        <textarea id="adres" name="adres" rows="4"></textarea><br>
+
+        <input type="submit" value="Gönder">
+    </form> 
+</div>
+
+    <script src="index5.js">
+
+    </script>
+</body>
+
+</html>
+
+
+<!-- <table>
+<ul>
+<li>Adı:</li>
+<li>Yaşı:</li>
+</ul>
+<script>
+const person = [
+{
+name: "Seda",
+age: 38
+},
+{
+name: "Oğuzhan",
+age: 38
+},
+{
+name: "Kıvanc",
+age: 8
+} ];
+
+
+for (let i = 0; i < person.length; i++) {
+const currentPerson = person[i];
+const row = document.createElement("ul");
+const nameCell = document.createElement("li");
+nameCell.innerText = currentPerson.name;
+const ageCell = document.createElement("li");
+ageCell.innerText = currentPerson.age;
+row.appendChild(nameCell);
+row.appendChild(ageCell);
+document.querySelector("table").appendChild(row);
+}
+</script>
+</table> -->
+
+
+
+
+</body>
+
+</html>
