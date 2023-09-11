@@ -28,173 +28,10 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        * {
-            box-sizing: border-box;
-        }
+       .navbar {
+      justify-content: flex-end;
+    }
 
-        body {
-            margin: 0px;
-        }
-
-
-        /* styling search bar */
-        .search input[type=text] {
-            width: 400px;
-            height: 35px;
-            border-radius: 25px;
-            background-color: #f7f9fa;
-            border: 1px solid black;
-            font-size: 12px;
-        }
-
-        .search {
-            width: 90%;
-            float: center;
-            margin: 7px;
-        }
-
-        .search button {
-            background-color: #0074D9;
-            color: #f2f2f2;
-            float: right;
-            padding: 5px 10px;
-            margin-right: 16px;
-            font-size: 12px;
-            border: none;
-            cursor: pointer;
-        }
-
-        .shadow {
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-        }
-
-        #navbarNav a {
-            font-family: 'Udemy Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-            color: black;
-            font-weight: 400;
-            line-height: 1.4;
-
-        }
-
-        #navbarNav a:hover {
-            color: #5624d0;
-            ;
-        }
-
-
-
-        .btn {
-            margin: 5px;
-            border: 1px solid black;
-            border-color: black;
-
-        }
-
-        .btn a:hover {
-
-            color: #b1b4b6;
-            border-color: black;
-        }
-
-        .btn-register {
-            margin: 5px;
-            border: 1px solid #2E4C6D;
-            border-color: black;
-            background-color: black;
-            color: white;
-        }
-
-        .btn-register a:hover {
-
-            color: rgb(44, 42, 42);
-        }
-
-        .main-header {
-            margin: 0px;
-            padding: 60px;
-            background: url(images/clock.jpg);
-            width: 100vw;
-            height: 400px;
-            object-fit: contain;
-            object-position: initial;
-        }
-
-        .main-title {
-
-            padding: 20px;
-            width: 350px;
-
-            background-color: #fff;
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-        }
-
-        .main-title p {
-            font-size: 13px;
-        }
-
-        .discovery {
-            margin: 30px;
-        }
-
-        .dıscovery-title {}
-
-        .tab-nav {
-            display: inline-block;
-            text-align: left;
-
-
-        }
-
-        .tab-nav__items {
-            margin: 0px;
-            padding: 0px;
-            list-style: none;
-        }
-
-        .tab-nav__item {
-            display: inline-block;
-            margin: 0 10px;
-        }
-
-        .tab-nav__item a {
-            text-decoration: none;
-            color: gray;
-        }
-
-        .tab-nav__item a:hover,
-        .tab-nav__item:hover::before {
-            color: black;
-        }
-
-        .tab-nav_active {
-            color: black;
-        }
-
-        .discovery-page-item {
-            margin-top: 10px;
-            padding: 20px;
-            border: 1px solid rgb(228, 226, 226);
-        }
-
-        .discovery-page-item a {
-            padding: 10px;
-            text-decoration: none;
-            color: black;
-            border: 1px solid black;
-        }
-
-        .discovery-page-item a:hover {
-
-            background-color: rgb(241, 241, 241);
-
-        }
-
-
-
-
-        .underline-text {
-            text-decoration: underline;
-        }
     </style>
 
 </head>
@@ -203,11 +40,11 @@
     <header>
 
     </header>
-    <div class="conteiner-fluid">
+    <div class="conteiner-navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
 
             <a class="navbar-brand " style="margin-left: 15px;" href="#">
-                <img src="images/logo-wb-header-en (1).svg" alt="wwbank" width="91" height="34" loading="eager">
+                <img src="images/logo-wb-header-en (1).svg" alt="wwbank" width="91" height="50">
             </a>
 
 
@@ -215,10 +52,10 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ">
 
-                    <li class="nav-item">
+                    <li class="nav-item ">
 
 
                     </li>
@@ -262,31 +99,21 @@
 
     </div>
     <header>
-        <div class="">
+        <div class="bg-image"
+            style=" background-image: url('images/sdg-atlas-image-1440x600.webp'); background-size: cover;background-position:center ; ">
+            <h1 class="underline-text" style="color: white; ">Sustainable Development Goals Atlas 2023</h1>
+            <p style="color: white;"> The SDG Atlas is a visual resource showcasing progress and setbacks in
+                achieving the SDGs. At the midpoint of the 2030 Agenda, the insights of the Atlas reinforce the
+                importance of strengthening global partnerships to tackle the formidable development challenges that
+                lie ahead.
+            </p>
 
-            <div class="bg-image"
-                style=" background-image: url('images/sdg-atlas-image-1440x600.webp'); background-size: cover;background-position:center ; ">
-                <h1 class="underline-text" style="color: white; ">Sustainable Development Goals Atlas 2023</h1>
-                <p style="color: white;"> The SDG Atlas is a visual resource showcasing progress and setbacks in
-                    achieving the SDGs. At the midpoint of the 2030 Agenda, the insights of the Atlas reinforce the
-                    importance of strengthening global partnerships to tackle the formidable development challenges that
-                    lie ahead.
-                </p>
+            <button type="button" class="btn btn-primary">Watch Launch
+                Event</button>
 
-
-
-                <button type="button" class="btn btn-primary">Watch Launch
-                    Event</button>
-
-                <button type="button" class="btn btn-light">Share on Social (Trello)</button>
-
-
-
-            </div>
-
-
-
+            <button type="button" class="btn btn-light">Share on Social (Trello)</button>
         </div>
+
     </header>
 
 
@@ -305,73 +132,70 @@
 
 
                 <div class="d-flex ">
-                    <div class="conteinerkurslar">
+                    <div class="conteinerbox">
                         <div class="row m-5 p-5 text-white text-center" style="background-color: #b1b4b6;">
-                            <div class="col-4" style="">
-                                <div class="module1">
-                                    <div class="photo1"><img src="images/Wide1-banner-DevPodcast-Climate-change-1.webp"
-                                            alt="resim1" width="240" height="135"></div>
 
-                                    <h3>GELİŞTİRME PODCASTİ</h3>
-                                    <a
-                                        href="#">
-                                        İklim Değişikliği ve Yoksulluğun Birbirine Geçen Zorlukları
-                                    </a>
-                                    <p>İklim değişikliği, zamanımızın belirleyici sorunlarından biridir ve hiçbir ülke
-                                        bundan muaf değildir. The Development Podcast'in bu bölümünde, iklim değişikliği
-                                        deneyimi ve bunun yoksullukla nasıl kesiştiği konusunda Afrika'daki seslere
-                                        odaklanıyoruz.</p>
+                            <div class="module1">
+                                <div class="photo1 "><img src="images/Wide1-banner-DevPodcast-Climate-change-1.webp"
+                                        alt="resim1" width="300" height="200"></div>
 
+                                <h3>GELİŞTİRME PODCASTİ</h3>
+                                <a href="#">
+                                    İklim Değişikliği ve Yoksulluğun Birbirine Geçen Zorlukları
+                                </a>
+                                <p>İklim değişikliği, zamanımızın belirleyici sorunlarından biridir ve hiçbir ülke
+                                    bundan muaf değildir. The Development Podcast'in bu bölümünde, iklim değişikliği
+                                    deneyimi ve bunun yoksullukla nasıl kesiştiği konusunda Afrika'daki seslere
+                                    odaklanıyoruz.</p>
 
-                                </div>
 
                             </div>
+
+
                         </div>
                     </div>
 
                     <div class="row m-5 p-5 text-white text-center" style="background-color: #b1b4b6;">
-                        <div class="col-4" style="">
-                            <div class="module2">
-                                <div class="photo1"><img src="images/wide2.webp" alt="resim2" width="240" height="135">
-                                </div>
 
-                                <h3>YATIRIM LABORATUVARI</h3>
-                                <a
-                                    href="#">
-                                    Özel Sektör Yatırım Laboratuvarı
-
-                                </a>
-                                <p>Dünya Bankası Grubu, gelişmekte olan pazarlarda özel sektör yatırımının önündeki
-                                    engelleri ortadan kaldıran çözümler geliştirmek ve hızla ölçeklendirmek için somut
-                                    bir adım olan Özel Sektör Yatırım Laboratuvarı'nı başlattı.</p>
-
-
+                        <div class="module2">
+                            <div class="photo1"><img src="images/wide2.webp" alt="resim2" width="300" height="200">
                             </div>
 
+                            <h3>YATIRIM LABORATUVARI</h3>
+                            <a href="#">
+                                Özel Sektör Yatırım Laboratuvarı
+
+                            </a>
+                            <p>Dünya Bankası Grubu, gelişmekte olan pazarlarda özel sektör yatırımının önündeki
+                                engelleri ortadan kaldıran çözümler geliştirmek ve hızla ölçeklendirmek için somut
+                                bir adım olan Özel Sektör Yatırım Laboratuvarı'nı başlattı.</p>
+
+
                         </div>
+
+
                     </div>
 
 
                     <div class="row m-5 p-5 text-white text-center" style="background-color: #b1b4b6;">
-                        <div class="col-4" style="">
-                            <div class="module3">
-                                <div class="photo1"><img src="images/wide3.jpg" alt="resim3" width="240" height="135">
-                                </div>
 
-                                <h3>YENİ BİR KÜRESEL MALİ ANLAŞMA ZİRVESİ</h3>
-                                <a
-                                    href="#">
-                                    Yeni Kriz Araç Seti
-
-                                </a>
-                                <p>In his remarks at the Paris Climate Summit, World Bank Group President Ajay Banga
-                                    announced a comprehensive approach that significantly expands our toolkit for crisis
-                                    preparedness, response, and recovery. Learn more.</p>
-
-
+                        <div class="module3">
+                            <div class="photo1"><img src="images/wide3.jpg" alt="resim3" width="300" height="200">
                             </div>
 
+                            <h3>YENİ BİR KÜRESEL MALİ ANLAŞMA ZİRVESİ</h3>
+                            <a href="#">
+                                Yeni Kriz Araç Seti
+
+                            </a>
+                            <p>In his remarks at the Paris Climate Summit, World Bank Group President Ajay Banga
+                                announced a comprehensive approach that significantly expands our toolkit for crisis
+                                preparedness, response, and recovery. Learn more.</p>
+
+
                         </div>
+
+
                     </div>
 
 
